@@ -4,29 +4,29 @@ var quiz = {
   // Q = QUESTION, O = OPTIONS, A = CORRECT ANSWER
   data: [
     {
-      q: "What is the standard distance between the target and archer in Olympics?",
-      o: ["50 meters", "70 meters", "100 meters", "120 meters"],
-      a: 1, // arrays start with 0, so answer is 70 meters
+      q: "Inside which HTML element do we put the JavaScript?",
+      o: ["script", "javascript", "js", "scripting"],
+      a: 0, // arrays start with 0, so answer is 70 meters
     },
     {
-      q: "Which is the highest number on a standard roulette wheel?",
-      o: ["22", "24", "32", "36"],
-      a: 3,
-    },
-    {
-      q: "How much wood could a woodchuck chuck if a woodchuck would chuck wood?",
-      o: ["400 pounds", "550 pounds", "700 pounds", "750 pounds"],
+      q: "Where is the correct place to insert a JavaScript?",
+      o: ["head", "body", "both", "none of the above"],
       a: 2,
     },
     {
-      q: "Which is the seventh planet from the sun?",
-      o: ["Uranus", "Earth", "Pluto", "Mars"],
+      q: "What is the correct syntax for referring to an external script called xxx.js ?",
+      o: ["script href=xxx.js", "script name=xxx.js", "script src=xx.js", "none of the above"],
+      a: 2,
+    },
+    {
+      q: "How do you create a function in JavaScript?",
+      o: ["function myfunction()", "function=myfunction()", "function:myfunction()", "none of the above"],
       a: 0,
     },
     {
-      q: "Which is the largest ocean on Earth?",
-      o: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-      a: 3,
+      q: "How do you call a function named myFunction?",
+      o: ["call myfunction()", "call function myfunction()", "myfunction()", "none of the above"],
+      a: 2,
     },
   ],
 
